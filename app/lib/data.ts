@@ -10,7 +10,7 @@ import {
   User,
   Revenue,
 } from './definitions';
-import { formatCurrency } from './utils';
+import { formatCurrency } from "./utils";
 
 export async function fetchRevenue() {
   // Add noStore() here to prevent the response from being cached.
@@ -240,3 +240,6 @@ export async function getUser(email: string) {
     throw new Error('Failed to fetch user.');
   }
 }
+
+
+
