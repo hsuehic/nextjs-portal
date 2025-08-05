@@ -12,6 +12,10 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Overview',
 };
+
+// Force dynamic rendering for this page
+export const dynamic = 'force-dynamic';
+
 export default async function Page() {
 
 
