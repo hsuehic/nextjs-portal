@@ -1,3 +1,4 @@
 {
-  "prettier.prettierPath": "./node_modules/prettier/index.cjs"
+  "prettier.prettierPath": "./node_modules/prettier/index.cjs",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
