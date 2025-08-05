@@ -7,6 +7,11 @@ services:
   #     - 3000:3000
   #   environment:
   #     - NODE_ENV=production
+    # develop:
+    #   watch:
+    #     - action: sync
+    #       path: .
+    #       target: /app
   #   volumes:
   #     - .:/app
   
